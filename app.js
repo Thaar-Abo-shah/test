@@ -14,8 +14,8 @@ console.log("hello")
 
 app.get('/a', (req, res) => {
   res.setHeader('Content-Type', 'image/jpg');
-  console.log(__dirname+'\2.jpg');
-  res.sendFile(path.join(__dirname,'\2.jpg'));
+  console.log(__dirname+'\\2.jpg');
+  res.sendFile(path.join(__dirname,'\\2.jpg'));
 });
 
 
